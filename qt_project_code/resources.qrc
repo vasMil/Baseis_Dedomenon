@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/black_login.png</file>
+        <file>images/complete_mysql_logo.png</file>
+        <file>images/default_prof_image.png</file>
+        <file>images/email_logo.png</file>
+        <file>images/key_logo.png</file>
+        <file>images/logo_1a345b789.png</file>
+        <file>images/logo_c8765d321.png</file>
+        <file>images/mysql_logo.png</file>
+        <file>images/staff_eval_logo.png</file>
+        <file>images/staff_eval_logo-removebg.png</file>
+        <file>images/admin_prof_image.png</file>
+        <file>images/evaluation.png</file>
+        <file>images/evaluation_cropped.png</file>
+        <file>images/evaluation_with_background.png</file>
+        <file>images/bio_logo.png</file>
+    </qresource>
+</RCC>
