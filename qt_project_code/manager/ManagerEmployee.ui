@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ManagerEmployee</class>
+ <widget class="QWidget" name="ManagerEmployee">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>531</width>
+    <height>472</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget_progr">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>300</y>
+     <width>521</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: grey;</string>
+   </property>
+   <property name="editTriggers">
+    <set>QAbstractItemView::NoEditTriggers</set>
+   </property>
+   <property name="dragDropOverwriteMode">
+    <bool>false</bool>
+   </property>
+   <attribute name="horizontalHeaderMinimumSectionSize">
+    <number>94</number>
+   </attribute>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>94</number>
+   </attribute>
+   <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="horizontalHeaderStretchLastSection">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="verticalHeaderCascadingSectionResizes">
+    <bool>true</bool>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>POSITION</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>SALARY</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>EVAL_NAME</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>EVAL_SURNAME</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>PHASE 1</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>PHASE 2</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>PHASE 3</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label_progr">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>270</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;</string>
+   </property>
+   <property name="text">
+    <string>IN PROGGRESS</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>211</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: grey;
+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="but_show">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>10</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SHOW APPLICATIONS</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget_compl">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>110</y>
+     <width>521</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: grey;</string>
+   </property>
+   <property name="editTriggers">
+    <set>QAbstractItemView::NoEditTriggers</set>
+   </property>
+   <property name="dragDropOverwriteMode">
+    <bool>false</bool>
+   </property>
+   <attribute name="horizontalHeaderMinimumSectionSize">
+    <number>94</number>
+   </attribute>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>94</number>
+   </attribute>
+   <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="horizontalHeaderStretchLastSection">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="verticalHeaderCascadingSectionResizes">
+    <bool>true</bool>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>POSITION</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>SALARY</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>EVAL_NAME</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>EVAL_SURNAME</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>GRADE</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="but_update">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>30</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>UPDATE FIELDS</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_compl">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>80</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;</string>
+   </property>
+   <property name="text">
+    <string>COMPLETED</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_title">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-20</y>
+     <width>291</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="text">
+    <string>Select one of your employees:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <zorder>tableWidget_progr</zorder>
+  <zorder>label_progr</zorder>
+  <zorder>but_show</zorder>
+  <zorder>tableWidget_compl</zorder>
+  <zorder>but_update</zorder>
+  <zorder>label_compl</zorder>
+  <zorder>label_title</zorder>
+  <zorder>comboBox</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
